@@ -1,0 +1,29 @@
+GCC HOME: C:\Program Files (x86)\GNU Tools ARM Embedded\4.7 2012q4\bin
+compile:
+    [mkdir] Skipping C:\CooCox\CoIDE\workspace\lol\lol\Debug\bin because it already exists.
+    [mkdir] Skipping C:\CooCox\CoIDE\workspace\lol\lol\Debug\obj because it already exists.
+       [cc] Starting dependency analysis for 19 files.
+       [cc] Parsing ..\..\..\cmsis_boot\stm32f4xx.h
+       [cc] Parsing ..\..\..\cmsis\core_cm4.h
+       [cc] Parsing ..\..\..\cmsis_boot\stm32f4xx_conf.h
+       [cc] Parsing ..\..\..\cmsis\core_cmInstr.h
+       [cc] Parsing ..\..\..\cmsis\core_cmFunc.h
+       [cc] Parsing ..\..\..\cmsis\core_cm4_simd.h
+       [cc] Parsing ..\..\..\..\..\..\..\Users\SysWiz\Desktop\ CoreMark\PUT_PTM13_Benchmark-master\coremark_v1.0\coremark.h
+       [cc] Parsing ..\..\..\..\..\..\..\Users\SysWiz\Desktop\ CoreMark\PUT_PTM13_Benchmark-master\coremark_v1.0\simple\core_portme.h
+       [cc] 0 files to be recompiled from dependency analysis.
+       [cc] 2 total files to be compiled.
+       [cc] 19 files are up to date.
+       [cc] arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ "-IC:\Users\SysWiz\Desktop\ CoreMark\PUT_PTM13_Benchmark-master\coremark_v1.0\simple" "-IC:\Users\SysWiz\Desktop\ CoreMark\PUT_PTM13_Benchmark-master\coremark_v1.0" -IC:\CooCox\CoIDE\workspace\lol "-IC:\Users\SysWiz\Desktop\ CoreMark\PUT_PTM13_Benchmark-master" -IC:\CooCox\CoIDE\workspace\lol\cmsis_lib -IC:\CooCox\CoIDE\workspace -IC:\CooCox\CoIDE\workspace\lol\cmsis "-IC:\Users\SysWiz\Desktop\ CoreMark" -IC:\CooCox\CoIDE\workspace\lol\STM32F4-Discovery -IC:\CooCox\CoIDE\workspace\lol\cmsis_lib\include -IC:\CooCox\CoIDE\workspace\lol\cmsis_boot '"C:\Users\SysWiz\Desktop\ CoreMark\PUT_PTM13_Benchmark-master\coremark_v1.0\core_main.c"' '"C:\Users\SysWiz\Desktop\ CoreMark\PUT_PTM13_Benchmark-master\coremark_v1.0\simple\core_portme.c"'
+       [cc] C:\Users\SysWiz\Desktop\ CoreMark\PUT_PTM13_Benchmark-master\coremark_v1.0\core_main.c: In function 'main':
+       [cc] C:\Users\SysWiz\Desktop\ CoreMark\PUT_PTM13_Benchmark-master\coremark_v1.0\core_main.c:289:2: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'ee_u32' [-Wformat]
+       [cc] C:\Users\SysWiz\Desktop\ CoreMark\PUT_PTM13_Benchmark-master\coremark_v1.0\core_main.c:289:2: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'ee_u32' [-Wformat]
+       [cc] C:\Users\SysWiz\Desktop\ CoreMark\PUT_PTM13_Benchmark-master\coremark_v1.0\core_main.c:290:2: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'unsigned int' [-Wformat]
+       [cc] C:\Users\SysWiz\Desktop\ CoreMark\PUT_PTM13_Benchmark-master\coremark_v1.0\core_main.c:290:2: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'unsigned int' [-Wformat]
+       [cc] C:\Users\SysWiz\Desktop\ CoreMark\PUT_PTM13_Benchmark-master\coremark_v1.0\core_main.c:305:2: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'ee_u32' [-Wformat]
+       [cc] C:\Users\SysWiz\Desktop\ CoreMark\PUT_PTM13_Benchmark-master\coremark_v1.0\core_main.c:305:2: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'ee_u32' [-Wformat]
+       [cc] C:\Users\SysWiz\Desktop\ CoreMark\PUT_PTM13_Benchmark-master\coremark_v1.0\core_main.c:307:38: error: 'FLAGS_STR' undeclared (first use in this function)
+       [cc] C:\Users\SysWiz\Desktop\ CoreMark\PUT_PTM13_Benchmark-master\coremark_v1.0\core_main.c:307:38: note: each undeclared identifier is reported only once for each function it appears in
+
+BUILD FAILED
+Total time: 1 second
