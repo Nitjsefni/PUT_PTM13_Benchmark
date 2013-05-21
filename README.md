@@ -7,4 +7,4 @@ Projekt Podstawy Techniki Mikroprocesorowej - Benchmark, Jakub Sobieski, Szymon 
 26.03.2013r. 08.00 - Analiza kodów, dokumentacji, przygotowywanie sprzetu, proba odpalenia Coremark na Windowsie        
 09.04.2013r. 08.00 - Poprawa dokumentacji projektu, próby odpalenia Coremark przez Windows na STM32F4, bledy            
 23.04.2013r. 08.00 - Próba odpalenia Coremark na Linuxie, otrzymanie pozytywnego rezultatu i wyników  
-30.04.2013r. 08.00 - Konfiguracja STM32f4 na Linuxie
+30.04.2013r. 08.00 - Konfiguracja STM32f4 i Coremark na Linuxie
