@@ -74,14 +74,25 @@ typedef clock_t CORE_TICKS;
 	*Imprtant* :
 	ee_ptr_int needs to be the data type used to hold pointers, otherwise coremark may fail!!!
 */
+
 typedef signed short ee_s16;
 typedef unsigned short ee_u16;
 typedef signed int ee_s32;
 typedef double ee_f32;
 typedef unsigned char ee_u8;
-typedef unsigned int ee_u32;
+typedef long unsigned int ee_u32;
 typedef ee_u32 ee_ptr_int;
 typedef size_t ee_size_t;
+
+// #define ee_s16 signed short
+// #define ee_u16 unsigned short
+// #define ee_s32 signed int
+// #define ee_f32 double
+// #define ee_u8 unsigned char
+// #define ee_u32 unsigned int
+// #define ee_ptr_int ee_u32
+// #define ee_size_t size_t
+
 /* align_mem :
 	This macro is used to align an offset to point to a 32b value. It is used in the Matrix algorithm to initialize the input memory blocks.
 */

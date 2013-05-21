@@ -29,7 +29,7 @@ LOAD = echo Loading done
 RUN = 
 
 OEXT = .o
-EXE = .exe
+#EXE = .exe
 
 # Target : port_pre% and port_post%
 # For the purpose of this simple port, no pre or post steps needed.
